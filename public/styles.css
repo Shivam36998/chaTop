@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    overflow-y: auto;
+    height: 70vh;
+    width: 60vw;
+    background-color: rgb(210, 214, 217);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 4px 8px 36px -30px rgba(0,0,0,1);
+}
+.heading_area{
+    background-color: rgb(172, 172, 172);
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+.image{
+    font-size: xx-large;
+    margin-right: 5px;    
+}
+.inb{
+    display: inline-block;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message_area{
+    padding: 10px;
+    height: 80%;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+.message{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 5px;
+}
+.message h2{
+    font-weight: medium;
+    font-size: medium;
+}
+.incoming{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.outgoing{
+    flex-direction: column;
+    align-items: flex-end;
+}
+.friend{
+    background-color: rgba(0, 0, 255, 0.5);
+    padding: 2px 6px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px 5px 5px 0;
+}
+.self{
+    background-color: rgba(0, 0, 255, 0.269);
+    padding: 2px 6px;
+    color: rgb(28, 28, 29);
+    border-radius: 5px 5px 0 5px;
+}
+.incoming p{
+    background-color: aliceblue;
+    border-radius: 5px 5px 5px 0;
+    padding: 5px;
+}
+.outgoing p{
+    background-color: aliceblue;
+    border-radius: 5px 5px 0 5px;
+    padding: 5px;
+}
+#textbox{
+    height: 35px;
+    padding: 5px 10px;
+    width: 100%;
+}
